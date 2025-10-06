@@ -21,6 +21,7 @@ export default function TaskApp() {
   
   const handleClearAll = () => {
     // TODO: set tasks to empty array
+    setTasks([]);
   };
 
   return (
