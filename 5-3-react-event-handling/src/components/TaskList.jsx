@@ -15,11 +15,12 @@ export default function TaskList({ tasks, onDelete }) {
           <TaskItem
           key={task.id}
           id={task.id}
-          text={task.text}/>
+          text={task.text}
+          onDelete={onDelete}/>
         )
       )
     } 
-    
+
     </ul>
   );
 }
